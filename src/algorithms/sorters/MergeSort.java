@@ -1,7 +1,7 @@
 package algorithms.sorters;
 
 /**
- * Merge sort is a divide and conquer algorithm. It recursively divides the given array into two subarrays
+ * Merge sort is a divide-and-conquer algorithm. It recursively divides the given array into two subarrays
  * until the sizes of the subarrays reaches 1. Finally it merges the subarrays into a sorted array.
  * Merge sort is often used for sorting linked-lists if linear searches are required when indexing elements.
  *

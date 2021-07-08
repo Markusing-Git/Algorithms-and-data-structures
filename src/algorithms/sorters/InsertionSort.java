@@ -5,7 +5,7 @@ package algorithms.sorters;
  * the item is in it´s rightful position.
  * The Algorithm will be as fast as O(n) when an item is inserted in
  * an already sorted array. It is also well suited for smaller arrays and often used in
- * combination with a divide and conquer algorithm.
+ * combination with a divide-and-conquer algorithm.
  *
  * Number of comparisons: Best O(n), Worst O(n^2)
  * Number of exchanges: Best O(n), Worst O(n^2)

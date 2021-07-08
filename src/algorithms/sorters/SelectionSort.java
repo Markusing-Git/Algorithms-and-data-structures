@@ -14,7 +14,7 @@ package algorithms.sorters;
 public class SelectionSort {
 
     /**
-     * This method is a generic selection sort
+     * This method is a generic Selection sort
      * @param arr will be sorted in increasing order.
      */
     public static <T extends Comparable<T>> void sort(T[] arr){
