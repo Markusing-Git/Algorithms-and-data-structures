@@ -6,6 +6,8 @@ import java.util.BitSet;
  * Prims algorithm is a greedy algorithm that aims to find a minimum spanning tree for a weighted directional graph.
  * A greedy algorithm will solve a sub-problem by finding the locally best solution but excluding the big picture.
  * Greedy algorithms can be effective but might not result in the best solution.
+ *
+ * @author mIngemarsson
  */
 public class PrimsAlgorithm {
     public static void main(String[] args) {

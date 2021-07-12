@@ -9,6 +9,8 @@ import java.util.BitSet;
  *
  * The algorithm will choose the shortest path available to the next unvisited node until all cities has been
  * visited.
+ *
+ * @author mIngemarsson
  */
 public class TravelingSalesMan {
     public static int minDistanceGreedy(int[][] w,int[] route){
