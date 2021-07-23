@@ -64,7 +64,7 @@ public class Deque<E> {
     }
 
     /**
-     * This method will remove an element from the front of the queue
+     * This method will remove an element from the front of the queue, if the queue is empty the method returns null
      * @return the removed element.
      */
     public E pollFirst(){
@@ -78,7 +78,7 @@ public class Deque<E> {
     }
 
     /**
-     * This method will remove an element from the end of the queue
+     * This method will remove an element from the end of the queue, if the queue is empty the method returns null
      * @return the removed element.
      */
     public E pollLast(){
@@ -93,6 +93,7 @@ public class Deque<E> {
 
     /**
      * This method will not modify the size or order of the queue only return the first element.
+     * If the queue is empty the method returns null
      * @return the first element of the queue.
      */
     public E peekFirst() {
@@ -103,6 +104,7 @@ public class Deque<E> {
 
     /**
      * This method will not modify the size or order of the queue only return the last element.
+     * If the queue is empty the method returns null
      * @return the last element of the queue.
      */
     public E peekLast() {
