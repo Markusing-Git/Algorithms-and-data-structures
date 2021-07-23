@@ -6,6 +6,8 @@ package data_structures;
  * This implementation is a generic double-ended queue (Deque or Dequeue). Therefore it has the ability to
  * add and remove items on either side of the queue while having the benefit of a time complexity of
  * O(1) on all it's operations. This comes with the disadvantage of using extra space for the node references.
+ *
+ * @author mIngemarsson
  */
 public class Deque<E> {
     private static class Node<E> {

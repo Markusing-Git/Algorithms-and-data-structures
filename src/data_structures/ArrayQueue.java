@@ -5,6 +5,8 @@ package data_structures;
  *
  * This implementation is based on the FIFO (first in first out) principle. The internal data structure
  * is a circular generic array with the ability to grow and shrink when needed.
+ *
+ * @author mIngemarsson
  */
 public class ArrayQueue<E> {
     private int front, rear, size, maxSize;

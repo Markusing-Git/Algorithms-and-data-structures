@@ -7,6 +7,8 @@ import java.util.Queue;
  * A BST or Binary Search tree is a data-structure where every key is unique. The tree is either empty or has a root
  * node with subtrees to the left (lesser keys) or subtrees to the right (higher keys). Searching in a BST is O(log n)
  * and adding a item is O(1).
+ *
+ * @author mIngemarsson
  */
 public class BinarySearchTree<E extends Comparable<E>> {
     private static class Node<E>{
