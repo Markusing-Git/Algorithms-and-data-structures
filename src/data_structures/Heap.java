@@ -11,6 +11,8 @@ import java.util.Arrays;
  * This implementation is a min-heap, meaning it inserts the smallest key as root and extracts the smallest key first.
  * For sorting this implementation can become more effective by using a heapify algorithm for inserting items.
  * Items must implement the Comparable interface and have a predefined compareTo method.
+ *
+ * @author mIngemarsson
  */
 public class Heap<E extends Comparable<E>>{
     private int size;
