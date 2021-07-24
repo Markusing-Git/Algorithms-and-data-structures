@@ -8,6 +8,8 @@ import java.util.Queue;
  * node with subtrees to the left (lesser keys) or subtrees to the right (higher keys). Searching in a BST is O(log n)
  * and adding a item is O(1).
  *
+ * Items must implement the Comparable interface and have a predefined compareTo method.
+ *
  * @author mIngemarsson
  */
 public class BinarySearchTree<E extends Comparable<E>> {
