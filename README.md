@@ -6,7 +6,6 @@ A couple of useful algorithms and data structures written in java.
 .
 └───src
     ├───algorithms
-    │   │   main.java
     │   │
     │   ├───dynamic_programming
     │   │       FloydWarshall.java
