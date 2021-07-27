@@ -34,7 +34,6 @@ public class PrimsAlgorithm {
         System.out.println("Total weight of the spanning tree: "+distance);
     }
 
-    // w - förbindelsematris, prim returnerar en array p, där p[i] är den nod som noden i anslöts till (i>0)
 
     /**
      * This method will execute a prim algorithm.
